@@ -27,14 +27,6 @@ var Outliner = require('storm-outliner');
 ##Example
 [https://mjbp.github.io/storm-outliner](https://mjbp.github.io/storm-outliner)
 
-
-##API
-####`Load([url])`
-Loads an array of scripts asynchronously, returning a promise
-
-####`Load([url], false)`
-Loads an array of scripts synchronously (in order), returning a promise
-
 ##Tests
 ```
 npm run test
