@@ -1,25 +1,22 @@
 /**
- * @name storm-outliner: 
- * @version 0.1.0: Fri, 17 Jun 2016 14:45:47 GMT
+ * @name storm-outiner: Hide CSS outline on mouse interactions, show on keyboard interactions
+ * @version 0.1.0: Thu, 20 Oct 2016 15:00:45 GMT
  * @author stormid
  * @license MIT
- */(function(root, factory) {
-  if (typeof exports === 'object') {
-    module.exports = factory();
-  } else {
-    root.StormOutliner = factory();
-  }
-}(this, function() {
-	'use strict';
-    
-    var el = document.getElementsByTagName('HEAD')[0].appendChild(document.createElement('STYLE'));
-    
-    document.addEventListener('mousedown', function () {
-        el.innerHTML = '*:focus{outline:none !important}';
-    });
-    
-    document.addEventListener('keydown', function () {
-        el.innerHTML = '';
+ */
+{
+    let styleElement = document.createElement('STYLE'),
+        setCss = cssText => {
+            styleElement.innerHTML = cssText;
+        };
+
+    document.getElementsByTagName('HEAD')[0].appendChild(styleElement);
+
+    document.addEventListener('mousedown', () => {
+        setCss('*:focus{outline:none !important}');
     });
 
- }));
+    document.addEventListener('keydown', () => {
+        setCss('');
+    });
+};
