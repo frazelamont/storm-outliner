@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/mjbp/storm-outliner/issues"
   },
-  "main": "dist/storm-outliner.min.js",
+  "main": "dist/storm-outliner.js",
   "keywords": [
     "stormid",
     "outliner",
@@ -32,6 +32,8 @@
     "babelify": "^7.3.0",
     "browser-sync": "^2.17.5",
     "browserify": "^13.1.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-react": "^6.4.1",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.2",
     "gulp-gh-pages": "^0.5.4",
