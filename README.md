@@ -6,6 +6,9 @@
 
 Hide CSS outline on mouse interactions, show on keyboard interactions.
 
+##Example
+[https://mjbp.github.io/storm-outliner](https://mjbp.github.io/storm-outliner)
+
 ##Usage
 
 JS
@@ -17,15 +20,6 @@ either using es6 import
 import Outliner from 'storm-outiner';
 
 ```
-or es5 commonjs (legacy)
-```
-var Outliner = require('storm-outliner');
-
-```
-
-
-##Example
-[https://mjbp.github.io/storm-outliner](https://mjbp.github.io/storm-outliner)
 
 ##Tests
 ```
