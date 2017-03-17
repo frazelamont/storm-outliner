@@ -1,6 +1,6 @@
 /**
  * @name storm-outiner: Hide CSS outline on mouse interactions, show on keyboard interactions
- * @version 0.1.0: Fri, 10 Feb 2017 16:49:25 GMT
+ * @version 0.1.0: Fri, 10 Mar 2017 17:52:01 GMT
  * @author stormid
  * @license MIT
  */
