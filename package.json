@@ -1,6 +1,6 @@
 {
   "name": "storm-outliner",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Hide CSS outline on mouse interactions, show on keyboard interactions",
   "author": "stormid",
   "license": "MIT",
