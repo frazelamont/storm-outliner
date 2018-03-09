@@ -1,13 +1,11 @@
 # Storm Outliner
 
-[![Build Status](https://travis-ci.org/mjbp/storm-outliner.svg?branch=master)](https://travis-ci.org/mjbp/storm-outliner)
-[![codecov.io](http://codecov.io/github/mjbp/storm-outliner/coverage.svg?branch=master)](http://codecov.io/github/mjbp/storm-outliner?branch=master)
 [![npm version](https://badge.fury.io/js/storm-outliner.svg)](https://badge.fury.io/js/storm-outliner)
 
-Hide CSS outline on mouse interactions, show on keyboard interactions.
+Tiny module to hide CSS outline on mouse interactions, show on keyboard interactions.
 
 ## Example
-[https://mjbp.github.io/storm-outliner](https://mjbp.github.io/storm-outliner)
+[https://stormid.github.io/storm-outliner](https://stormid.github.io/storm-outliner)
 
 ## Usage
 

@@ -6,10 +6,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mjbp/storm-outliner.git"
+    "url": "https://github.com/stormid/storm-outliner.git"
   },
   "bugs": {
-    "url": "https://github.com/mjbp/storm-outliner/issues"
+    "url": "https://github.com/stormid/storm-outliner/issues"
   },
   "main": "dist/storm-outliner.js",
   "keywords": [
@@ -22,8 +22,9 @@
   "scripts": {
     "build": "gulp build",
     "start": "gulp",
-    "test": "istanbul cover _mocha && codecov",
-    "test:watch": "NODE_ENV=test mocha --watch"
+    "test": "_mocha",
+    "test:watch": "NODE_ENV=test mocha --watch",
+    "test:coverage": "istanbul cover _mocha && codecov"
   },
   "browserify": {
     "transform": [
